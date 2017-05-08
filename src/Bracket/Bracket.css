@@ -1,14 +1,8 @@
 .Bracket {
   color: orange;
   width: auto;
-  height: 100px;
+  height: 1000px;
   background-color: grey;
   border-radius: 5px;
   margin: 20px;
-}
-
-.CenterText{
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
 }

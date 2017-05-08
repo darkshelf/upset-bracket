@@ -1,23 +1,20 @@
 import React, { Component } from 'react';
-import Matchup from './Matchup';
-import MatchupData from './matchups.json';
+import Region from './Region';
+import Tournament from './tournament.json';
 import './Bracket.css';
-
-var MatchupsData = MatchupData.matchupsData.matchups;
-
-var MUFE = MatchupsData.map(function(matchups, i) {
-    return (
-        <Matchup matchup={matchups} key={i} />
-    );
-});
 
 class Bracket extends Component {
   render() {
+    var regions = Tournament.tournament.regions;
+
+    var regionComponents = regions.map(function(region, i) {
+        return (
+            <Region region={region} key={i} />
+        );
+    });
     return (
       <div className="Bracket">
-        <div className="CenterText">
-          {MUFE}
-        </div>
+        {regionComponents}
       </div>
     );
   }
