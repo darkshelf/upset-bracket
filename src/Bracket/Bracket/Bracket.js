@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Region from './Region';
-import Tournament from './tournament.json';
+import Region from '.././Region/Region';
+import Tournament from '.././tournament.json';
 import './Bracket.css';
 
 class Bracket extends Component {

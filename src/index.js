@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Bracket from './Bracket/Bracket';
+import Bracket from './Bracket/Bracket/Bracket';
 import './index.css';
 
 ReactDOM.render(

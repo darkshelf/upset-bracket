@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Matchup from './Matchup';
+import Matchup from '.././Matchup/Matchup';
 import './Region.css';
 
 class Region extends Component {
