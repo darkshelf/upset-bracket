@@ -1,0 +1,20 @@
+{"matchupsData": {
+  "id": "1",
+  "matchups": [
+    {
+      "gameId" : "1",
+      "teams": [
+          { "teamId" : "1", "teamName" : "Villanova", "shortName" : "Nova", "seeding" : "1", "region" : "east"},
+          { "teamId" : "2", "teamName" : "Mount St. Mary's", "shortName" : "MSMARY", "seeding" : "16", "region" : "east"}
+      ]
+    },
+    {
+      "gameId" : "2",
+      "teams": [
+          { "teamId" : "3", "teamName" : "Wisconsin", "shortName" : "Wisc", "seeding" : "1", "region" : "east"},
+          { "teamId" : "4", "teamName" : "Virginia Tech", "shortName" : "Va. Tech", "seeding" : "16", "region" : "east"}
+      ]
+    }
+  ]
+
+}}
